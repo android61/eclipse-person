@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Управление персоналом</title>
+    <title>Региональные представители</title>
 </head>
 <body>
 <div class="container-fluid d-flex flex-column min-vh-100">
@@ -19,10 +19,13 @@
             <h2>Функции системы</h2>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item list-group-item-primary">
-                    <a href="#">Сотрудники</a>
+                    <a href="#">Сотрудники фирмы</a>
                 </li>
                 <li class="list-group-item list-group-item-info">
-                    <a href="#">Должности</a>
+                    <a href="#">Города (Территории)</a>
+                </li>
+                <li class="list-group-item list-group-item-success">
+                    <a href="#">Области (Регионы)</a>
                 </li>
             </ul>
         </div>
