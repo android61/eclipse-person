@@ -19,13 +19,13 @@
             <h2>Функции системы</h2>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item list-group-item-primary">
-                    <a href="HelloEmployeeServlet">Сотрудники фирмы</a>
+                    <a href="employees">Сотрудники фирмы</a>
                 </li>
                 <li class="list-group-item list-group-item-info">
-                    <a href="HelloTerritoryServlet">Города (Территории)</a>
+                    <a href="territories">Города (Территории)</a>
                 </li>
                 <li class="list-group-item list-group-item-success">
-                    <a href="HelloRegionServlet">Области (Регионы)</a>
+                    <a href="regions">Области (Регионы)</a>
                 </li>
             </ul>
         </div>

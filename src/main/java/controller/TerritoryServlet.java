@@ -6,9 +6,8 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 
-@WebServlet("/HelloTerritoryServlet")
+@WebServlet("/territories")
 public class TerritoryServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -17,13 +16,7 @@ public class TerritoryServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html; charset=UTF-8");
-        PrintWriter writer = response.getWriter();
-        try {
-            writer.println("<h2>Привет от TerritoryServlet (Города / Территории)</h2>");
-        } finally {
-            writer.close();
-        }
+        request.getRequestDispatcher("/views/territory.jsp").forward(request, response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
